@@ -27,7 +27,7 @@ echo "Your name is $name!"
 
 echo ""
 
-if [ $name = $USER ]; 
+if [ "$name" = "$USER" ]; 
 then
 	echo "Welcome $name."
 	echo ""
